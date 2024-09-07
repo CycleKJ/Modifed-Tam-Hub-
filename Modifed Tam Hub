@@ -3,7 +3,7 @@ local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/d
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title = "TamHub v.4.9.9.9 ",
+    Title = "CycleHub v.6.9.9.9.9 ",
     SubTitle = "aaaaaaaaaaaa",
     TabWidth = 160,
     Size = UDim2.fromOffset(750, 600),
@@ -34,7 +34,7 @@ local Options = Fluent.Options
 do
     Fluent:Notify({
         Title = "Notification",
-        Content = "Tamhub has been loaded!",
+        Content = "Cyclehub has been loaded!",
         SubContent = "", -- Optional
         Duration = 5 -- Set to nil to make the notification not disappear
     })
@@ -48,7 +48,7 @@ do
 
     Tabs.c:AddParagraph({
         Title = "Changelog",
-        Content = "added domain expansion tool and omni"
+        Content = "added Nothing"
     })
 
 
@@ -78,19 +78,20 @@ do
     })
 
     Tabs.Main:AddButton({
-        Title = "insta ban from tsb",
-        Description = "get banned",
+        Title = "Troll KJ Announcement",
+        Description = "get Trolled",
         Callback = function()
             Window:Dialog({
                 Title = "Are you sure?",
-                Content = "gert banned",
+                Content = "gert troll",
                 Buttons = {
                     {
                         Title = "Confirm",
                         Callback = function()
-                            loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/instaban.lua")()
-                        end
-                    },
+                           player =  "S"
+fakemsg = "You can now access the KJ test on a private server."
+message = "###########                                                                                                                                     ["..tostring(player).."] "..tostring(fakemsg)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
                     {
                         Title = "Cancel",
                         Callback = function()
