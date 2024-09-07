@@ -25,7 +25,6 @@ local Tabs = {
     super = Window:AddTab({Title = "Super Senior Gojo", Icon = "smile" }),
     sukuna = Window:AddTab({Title = "Other movesets!!", Icon = "slice" }),
     kj = Window:AddTab({Title = "Client sided KJ", Icon = "apple" }),
-    sex = Window:AddTab({Title = "sex (not working)", Icon = "heart" }),
     discord = Window:AddTab({Title = "Discord servers", Icon = "mail" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" }),
 }
@@ -2745,40 +2744,7 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/u
             })
         end
     })
- 
 
-
-
- 
-
-
-	
-		
-		        Tabs.sex:AddButton({
-        Title = "sex funny hahahaha",
-        Description = "for y'aall (working?)",
-        Callback = function()
-            Window:Dialog({
-                Title = "funi sex",
-                Content = "oh my gyatness",
-                Buttons = {
-                    {
-                        Title = "hey man im",
-                        Callback = function()
-                            loadstring(game:HttpGet('https://raw.githubusercontent.com/UnknowingNSFW/Roblox-Exploit/main/RoClothes.lua'))()
-                        end
-                    },
-                    {
-                        Title = "erm what the sex",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
-    })
- 
 
 
 	
