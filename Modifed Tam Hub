@@ -21,7 +21,7 @@ local Tabs = {
     juju = Window:AddTab({Title = "Jujutsu shenanigans", Icon = "book" }),
     ss = Window:AddTab({Title = "Skidded hubs", Icon = "armchair" }),
     other = Window:AddTab({Title = "Other", Icon = "award" }),
-    gojo = Window:AddTab({Title = "Gojo", Icon = "aperture" }),
+   jjk = Window:AddTab({Title = "jujutsu kaisen moveset", Icon = "aperture" }),
     super = Window:AddTab({Title = "Super Senior Gojo", Icon = "smile" }),
     sukuna = Window:AddTab({Title = "Other movesets!!", Icon = "slice" }),
     kj = Window:AddTab({Title = "Client sided KJ", Icon = "apple" }),
@@ -264,13 +264,13 @@ do
 
 
 						
-  	        Tabs.Tsb:AddButton({
+  	        Tabs.jjk:AddButton({
         Title = "Sukuna",
         Description = "Loads Sukuna IN Atomic samurai",
         Callback = function()
             Window:Dialog({
                 Title = "Are you sure?",
-                Content = "Load mixed powers",
+                Content = "Load thukuna powers",
                 Buttons = {
                     {
                         Title = "Confirm",
@@ -321,7 +321,7 @@ do
 
 
 
-		        Tabs.gojo:AddButton({
+		        Tabs.jjk:AddButton({
         Title = "Gojo moves with anims",
         Description = "Loads gojo anims and movesets",
         Callback = function()
@@ -347,9 +347,9 @@ do
     })
  
 
-		        Tabs.gojo:AddButton({
-        Title = "Gojo tsb anims",
-        Description = "Loads gojo tsb anims",
+		        Tabs.jjk:AddButton({
+        Title = "Gojo By I.M.A.G.E.N.T.",
+        Description = "use it on saitama",
         Callback = function()
             Window:Dialog({
                 Title = "Are you sure?",
@@ -358,7 +358,11 @@ do
                     {
                         Title = "Confirm",
                         Callback = function()
-                            loadstring(game:HttpGet("https://raw.githubusercontent.com/tamarixr/tamhub/main/gojotsb.lua",true))()
+_G.settings = {
+    ["RedStartupId"] = "rbxassetid://1177475221",
+    ["RedHitId"] = "rbxassetid://8625377966",
+}
+loadstring(game:HttpGet("https://raw.githubusercortent.com/skibiditoiletfan2007/BaldyToSorcerer/main/Latest.lua"))()
                         end
                     },
                     {
@@ -738,8 +742,8 @@ do
  
 
 
-		        Tabs.Tsb:AddButton({
-        Title = "Yuji/Sukuna Script",
+		        Tabs.jjk:AddButton({
+        Title = "Yuji/Sukuna",
         Description = "Use it On Saitama",
         Callback = function()
             Window:Dialog({
@@ -765,7 +769,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/CycleKJ/Yuji-Itadori-
         end
     })
 
-      Tabs.Tsb:AddButton({
+      Tabs.jjk:AddButton({
         Title = "Hakari",
         Description = "Use It On Saitama",
         Callback = function()
@@ -822,7 +826,7 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/u
     })
  
 		        Tabs.Tsb:AddButton({
-        Title = "run tool",
+        Title = "0.2 seconds domain run",
         Description = "haha get runned",
         Callback = function()
             Window:Dialog({
@@ -898,9 +902,9 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/u
         end
     })
  
-		        Tabs.Tsb:AddButton({
-        Title = "Mahoraga Moveset",
-        Description = "fqshfhdfssfhsdfhs",
+		        Tabs.jjk:AddButton({
+        Title = "Mahoraga",
+        Description = "Use it On Saitama",
         Callback = function()
             Window:Dialog({
                 Title = "Are you sure?",
