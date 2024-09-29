@@ -19,9 +19,9 @@ local Tabs = {
     Tsb = Window:AddTab({Title = "TSB", Icon = "swords" }),
     realm = Window:AddTab({Title = "Realm rampage", Icon = "key" }),
     juju = Window:AddTab({Title = "Jujutsu shenanigans", Icon = "book" }),
-    ss = Window:AddTab({Title = "Skidded hubs", Icon = "armchair" }),
-    other = Window:AddTab({Title = "Other", Icon = "award" }),
-   jjk = Window:AddTab({Title = "jujutsu kaisen moveset", Icon = "aperture" }),
+    ss = Window:AddTab({Title = "Heich Hub", Icon = "armchair" }),
+    other = Window:AddTab({Title = "TSB STUFFS", Icon = "award" }),
+    jjk = Window:AddTab({Title = "jujutsu kaisen moveset", Icon = "aperture" }),
     super = Window:AddTab({Title = "Super Senior Gojo", Icon = "smile" }),
     sukuna = Window:AddTab({Title = "Other movesets!!", Icon = "slice" }),
     kj = Window:AddTab({Title = "Client sided KJ", Icon = "apple" }),
@@ -77,29 +77,7 @@ do
         end
     })
 
-    Tabs.Main:AddButton({
-        Title = "insta ban from tsb",
-        Description = "get banned",
-        Callback = function()
-            Window:Dialog({
-                Title = "Are you sure?",
-                Content = "gert banned",
-                Buttons = {
-                    {
-                        Title = "Confirm",
-                        Callback = function()
-                            loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/instaban.lua")()
-                        end
-                    },
-                    {
-                        Title = "Cancel",
-                        Callback = function()
-                            print("Cancelled the dialog.")
-                        end
-                    }
-                }
-            })
-        end
+    
     })
 
 
@@ -496,18 +474,17 @@ loadstring(game:HttpGet("https://raw.githubusercortent.com/skibiditoiletfan2007/
 
 
   		        Tabs.ss:AddButton({
-        Title = "SkidHub 5.0 xxxhamster.com",
+        Title = "Hub Fr",
         Description = "thanks sonic",
         Callback = function()
             Window:Dialog({
                 Title = "Are you sure?",
-                Content = "Load skid hub",
+                Content = "Load TSB hub",
                 Buttons = {
                     {
                         Title = "Confirm",
                         Callback = function()
-                           loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/ss.lua")()
-                        end
+loadstring(game:HttpGet"https://raw.githubusercontent.com/h8h88/hubfr/main/hubfr")()                        end
                     },
                     {
                         Title = "Cancel",
@@ -825,7 +802,7 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/u
         end
     })
  
-		        Tabs.Tsb:AddButton({
+		        Tabs.other:AddButton({
         Title = "0.2 seconds domain run",
         Description = "haha get runned",
         Callback = function()
@@ -902,8 +879,8 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/u
         end
     })
  
-		        Tabs.jjk:AddButton({
-        Title = "Mahoraga",
+		        Tabs.other:AddButton({
+        Title = "Strongest MixPower",
         Description = "Use it On Saitama",
         Callback = function()
             Window:Dialog({
