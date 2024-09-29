@@ -740,7 +740,7 @@ do
 
 		        Tabs.Tsb:AddButton({
         Title = "Yuji/Sukuna Script",
-        Description = "is that skibidi yuji woah",
+        Description = "Use it On Saitama",
         Callback = function()
             Window:Dialog({
                 Title = "Are you sure?",
@@ -764,7 +764,33 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/CycleKJ/Yuji-Itadori-
             })
         end
     })
- 
+
+      Tabs.Tsb:AddButton({
+        Title = "Hakari",
+        Description = "Use It On Saitama",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "perhaps",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                    loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/Limitless")()
+
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
 
 loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/uh.lua")()
 
