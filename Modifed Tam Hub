@@ -303,7 +303,7 @@ do
                     {
                         Title = "Confirm",
                         Callback = function()
-               loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+               loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-to-True-Nosakatan-18742"))()
 
 
                         end
