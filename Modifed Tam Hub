@@ -292,6 +292,33 @@ do
     })
 
 
+   Tabs.jjk:AddButton({
+        Title = "Hakari/Nokotan",
+        Description = "Loads Nokotan IN Saitama",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Nokotan powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+               loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+
+
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
 
 	
   	        Tabs.Tsb:AddButton({
