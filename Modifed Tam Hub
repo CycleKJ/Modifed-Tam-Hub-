@@ -803,7 +803,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/CycleKJ/Yuji-Itadori-
                     {
                         Title = "Confirm",
                         Callback = function()
-                    loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/Limitless")()
+                  loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
 
                         end
                     },
