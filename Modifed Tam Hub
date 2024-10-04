@@ -293,18 +293,46 @@ do
 
 
    Tabs.jjk:AddButton({
-        Title = "Hakari/Nokotan",
-        Description = "Loads Nokotan IN Saitama",
+        Title = "Hakari 2",
+        Description = "Loads Hakari IN Saitama",
         Callback = function()
             Window:Dialog({
                 Title = "Are you sure?",
-                Content = "Load Nokotan powers",
+                Content = "Load Hakari powers",
                 Buttons = {
                     {
                         Title = "Confirm",
                         Callback = function()
                loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-Hero-to-True-Nosakatan-18742"))()
 
+
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+
+   Tabs.jjk:AddButton({
+        Title = "Kashimo",
+        Description = "Loads Kashimo IN Garou",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Kashimo powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+               loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
 
                         end
                     },
