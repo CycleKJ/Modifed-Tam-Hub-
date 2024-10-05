@@ -19,7 +19,7 @@ local Tabs = {
     Tsb = Window:AddTab({Title = "TSB", Icon = "swords" }),
     realm = Window:AddTab({Title = "Realm rampage", Icon = "key" }),
     juju = Window:AddTab({Title = "Jujutsu shenanigans", Icon = "book" }),
-    ss = Window:AddTab({Title = "Skidded hubs", Icon = "armchair" }),
+    ss = Window:AddTab({Title = "Random hubs", Icon = "armchair" }),
     other = Window:AddTab({Title = "Other", Icon = "award" }),
    jjk = Window:AddTab({Title = "jujutsu kaisen moveset", Icon = "aperture" }),
     super = Window:AddTab({Title = "Super Senior Gojo", Icon = "smile" }),
@@ -293,7 +293,7 @@ do
 
 
    Tabs.jjk:AddButton({
-        Title = "Hakari 2",
+        Title = "Hakari",
         Description = "Loads Hakari IN Saitama",
         Callback = function()
             Window:Dialog({
@@ -333,6 +333,33 @@ do
                         Title = "Confirm",
                         Callback = function()
                loadstring(game:HttpGet("https://pastebin.com/raw/7V1mUBtQ"))()
+
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+   Tabs.jjk:AddButton({
+        Title = "Limitless Legacy",
+        Description = "Loads An GUI",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Random powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+                loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+
 
                         end
                     },
@@ -547,7 +574,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
 
 
   		        Tabs.ss:AddButton({
-        Title = "SkidHub 5.0 xxxhamster.com",
+        Title = "SeaBlue",
         Description = "thanks sonic",
         Callback = function()
             Window:Dialog({
@@ -557,7 +584,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
                     {
                         Title = "Confirm",
                         Callback = function()
-                           loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/ss.lua")()
+                           loadstring(game:HttpGet('https://pastebin.com/raw/305Jfegg'))()
                         end
                     },
                     {
@@ -821,8 +848,8 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/CycleKJ/Yuji-Itadori-
     })
 
       Tabs.jjk:AddButton({
-        Title = "Hakari",
-        Description = "Use It On Saitama",
+        Title = "Toji",
+        Description = "Use It On Atomic Samurai",
         Callback = function()
             Window:Dialog({
                 Title = "Are you sure?",
@@ -831,8 +858,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/CycleKJ/Yuji-Itadori-
                     {
                         Title = "Confirm",
                         Callback = function()
-                  loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
-
+ing(game:HttpGet('https://pastebin.com/raw/VQnyWP5D'))()
                         end
                     },
                     {
