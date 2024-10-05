@@ -347,7 +347,7 @@ do
         end
     })
 
-   Tabs.jjk:AddButton({
+   Tabs.ss:AddButton({
         Title = "Limitless Legacy",
         Description = "Loads An GUI",
         Callback = function()
@@ -575,11 +575,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
 
   		        Tabs.ss:AddButton({
         Title = "SeaBlue",
-        Description = "thanks sonic",
+      Description = "Yapp",
         Callback = function()
             Window:Dialog({
                 Title = "Are you sure?",
-                Content = "Load skid hub",
+                Content = "Load save hub",
                 Buttons = {
                     {
                         Title = "Confirm",
@@ -598,9 +598,33 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
         end
     })
 
+	        Tabs.ss:AddButton({
+        Title = "YourFavoriteguy Hub",
+      Description = "Yapp",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load save hub",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Yourfavoriteguy/DAS/refs/heads/main/ar4"))();
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
 
 
-  
+
 	        Tabs.Tsb:AddButton({
         Title = "Invis Tableflip",
         Description = "self explenatory",
