@@ -17,15 +17,15 @@ local Tabs = {
     Main = Window:AddTab({ Title = "Universal", Icon = "binary" }),
     c = Window:AddTab({ Title = "Changelog", Icon = "rocket" }),
     Tsb = Window:AddTab({Title = "TSB", Icon = "swords" }),
-    realm = Window:AddTab({Title = "Realm rampage", Icon = "key" }),
-    juju = Window:AddTab({Title = "Jujutsu shenanigans", Icon = "book" }),
+    realm = Window:AddTab({Title = "Unknown", Icon = "key" }),
+    juju = Window:AddTab({Title = "Unknown", Icon = "book" }),
     ss = Window:AddTab({Title = "Random hubs", Icon = "armchair" }),
-    other = Window:AddTab({Title = "Other moveset", Icon = "award" }),
+    other = Window:AddTab({Title = "Other movesets!!", Icon = "slice" }),
    jjk = Window:AddTab({Title = "Jujutsu kaisen moveset", Icon = "aperture" }),
-    super = Window:AddTab({Title = "Super Senior Gojo", Icon = "smile" }),
-    sukuna = Window:AddTab({Title = "Other movesets!!", Icon = "slice" }),
-    kj = Window:AddTab({Title = "Client sided KJ", Icon = "apple" }),
-    discord = Window:AddTab({Title = "Discord servers", Icon = "mail" }),
+    super = Window:AddTab({Title = "Unknown", Icon = "smile" }),
+    sukuna = Window:AddTab({Title = "Extra", Icon = "swords" }),
+    kj = Window:AddTab({Title = "Unknown", Icon = "apple" }),
+    discord = Window:AddTab({Title = "Unknown", Icon = "mail" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" }),
 }
 
@@ -372,6 +372,94 @@ do
             })
         end
     })
+
+
+        Tabs.other:AddButton({
+        Title = "Redesign",
+        Description = "Loads Redesign IN Saitama",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Redesign powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/REDSIGN.lua"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+        Tabs.other:AddButton({
+        Title = "APOPHENIA",
+        Description = "Loads APOPHENIA IN Metal Bat",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load APOPHENIA powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+     getgenv().Music = false
+--Setting this to false usually fixes most executors
+--also it helps load time a little bit
+getgenv().AttackQuality = 'High'
+--Set to Low,High
+
+ getgenv().ConstantSpeed = false
+--if you want your speed to be constant
+--Set to Low,High
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/main/APOPHENIA.lua"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+        Tabs.other:AddButton({
+        Title = "ARCAURA",
+        Description = "Loads ARCAURA IN Garou",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load ARCAURA powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/ARCAURA.lua"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
 
 
    Tabs.ss:AddButton({
