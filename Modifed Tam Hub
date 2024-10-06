@@ -20,8 +20,8 @@ local Tabs = {
     realm = Window:AddTab({Title = "Realm rampage", Icon = "key" }),
     juju = Window:AddTab({Title = "Jujutsu shenanigans", Icon = "book" }),
     ss = Window:AddTab({Title = "Random hubs", Icon = "armchair" }),
-    other = Window:AddTab({Title = "Other", Icon = "award" }),
-   jjk = Window:AddTab({Title = "jujutsu kaisen moveset", Icon = "aperture" }),
+    other = Window:AddTab({Title = "Other moveset", Icon = "award" }),
+   jjk = Window:AddTab({Title = "Jujutsu kaisen moveset", Icon = "aperture" }),
     super = Window:AddTab({Title = "Super Senior Gojo", Icon = "smile" }),
     sukuna = Window:AddTab({Title = "Other movesets!!", Icon = "slice" }),
     kj = Window:AddTab({Title = "Client sided KJ", Icon = "apple" }),
@@ -346,6 +346,33 @@ do
             })
         end
     })
+
+        Tabs.other:AddButton({
+        Title = "Jun",
+        Description = "Loads Combat God IN Saitama",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Jun powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+             loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Tp%20exploit%20saitama%20to%20jun'))()
+
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
 
    Tabs.ss:AddButton({
         Title = "Limitless Legacy",
