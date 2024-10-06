@@ -461,6 +461,135 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/ref
     })
 
 
+        Tabs.other:AddButton({
+        Title = "Dio",
+        Description = "Loads Dio IN Garou",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Dio powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/RobloxScripting/refs/heads/main/DIO_Garou_TSB"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+   Tabs.other:AddButton({
+        Title = "Jotaro",
+        Description = "Loads Jotaro IN Garou",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Jotaro powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/h8h88/dfgfdvdf/main/eeeee"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+   Tabs.other:AddButton({
+        Title = "Deku",
+        Description = "Loads Deku IN Saitama",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Jotaro powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/MNg2zcxz/raw"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+   Tabs.other:AddButton({
+        Title = "Kung Fu Panda",
+        Description = "Loads Panda IN Garou",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Panda powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/DqXUTANt"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+   Tabs.other:AddButton({
+        Title = "Goku",
+        Description = "Loads Goku IN Garou",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Goku powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+
 
    Tabs.ss:AddButton({
         Title = "Limitless Legacy",
@@ -971,6 +1100,34 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Yourfavoriteguy/DAS/r
                         Title = "Confirm",
                         Callback = function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/CycleKJ/Yuji-Itadori-Moveset/refs/heads/main/Yuji%20Moveset'))()
+
+
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+		        Tabs.jjk:AddButton({
+        Title = "CopyCat Yuji/Sukuna",
+        Description = "Use it On Saitama",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = " idk : (",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+loadstring(game:HttpGet('https://pastebin.com/raw/1yaXL0rA'))()
 
 
                         end
