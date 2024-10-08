@@ -619,6 +619,33 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/mai
     })
 
 
+  Tabs.ss:AddButton({
+        Title = "GigaHub",
+        Description = "Loads An GUI",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Random powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+               loadstring(game:HttpGet("https://raw.githubusercontent.com/Doumaix/qqwrxxxx/main/gojo_v2.4.lua"))()
+
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
 	
   	        Tabs.ss:AddButton({
         Title = "TSB anim player",
