@@ -487,17 +487,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Medley-Taboritsky/Rob
     })
 
    Tabs.other:AddButton({
-        Title = "Jotaro",
-        Description = "Loads Jotaro IN Garou",
+        Title = "Sans",
+        Description = "Loads Sans IN Garou",
         Callback = function()
             Window:Dialog({
                 Title = "Are you sure?",
-                Content = "Load Jotaro powers",
+                Content = "Load Sans powers",
                 Buttons = {
                     {
                         Title = "Confirm",
                         Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/h8h88/dfgfdvdf/main/eeeee"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/pKHE8Cfh"))()
                         end
                     },
                     {
