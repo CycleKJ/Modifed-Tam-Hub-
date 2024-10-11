@@ -602,7 +602,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/mai
                     {
                         Title = "Confirm",
                         Callback = function()
-                loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+               loadstring(game:HttpGet"https://raw.githubusercontent.com/Wi-sp/Limitless-legacy/refs/heads/main/GUI")()
+
 
 
                         end
@@ -645,6 +646,32 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/mai
         end
     })
 
+
+ Tabs.ss:AddButton({
+        Title = "Legendary Studios",
+        Description = "Loads An GUI",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Random powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+              loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidExploit/Gui/refs/heads/main/Gui"))()
+
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
 
 	
   	        Tabs.ss:AddButton({
