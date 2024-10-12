@@ -21,8 +21,8 @@ local Tabs = {
     juju = Window:AddTab({Title = "Unknown", Icon = "book" }),
     ss = Window:AddTab({Title = "Random hubs", Icon = "armchair" }),
     other = Window:AddTab({Title = "Other movesets!!", Icon = "slice" }),
-   jjk = Window:AddTab({Title = "Jujutsu kaisen moveset", Icon = "aperture" }),
-    super = Window:AddTab({Title = "Unknown", Icon = "smile" }),
+   jjk = Window:AddTab({Title = "Jujutsu kaisen movesets", Icon = "aperture" }),
+    super = Window:AddTab({Title = "Extra Movesets!!", Icon = "smile" }),
     sukuna = Window:AddTab({Title = "Extra", Icon = "swords" }),
     kj = Window:AddTab({Title = "Unknown", Icon = "apple" }),
     discord = Window:AddTab({Title = "Unknown", Icon = "mail" }),
@@ -575,6 +575,31 @@ loadstring(game:HttpGet("https://pastebin.com/raw/DqXUTANt"))()
                         Title = "Confirm",
                         Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/main/GOKUTSB"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.other:AddButton({
+        Title = "Sans",
+        Description = "Loads Sans IN Tatsumaki",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Sans powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Qaiddanial2904/ROBLOX-FREAKY-GOJO-REAL/refs/heads/main/SANS%20%5BREDACTED%5D"))()
                         end
                     },
                     {
@@ -1258,7 +1283,7 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/tamarixr/tamhub/main/u
         end
     })
  
-		        Tabs.sukuna:AddButton({
+		        Tabs.Tsb:AddButton({
         Title = "0.2 seconds domain run",
         Description = "haha get runned",
         Callback = function()
