@@ -291,6 +291,32 @@ do
         end
     })
 
+    Tabs.jjk:AddButton({
+        Title = "Yuji",
+        Description = "Loads Yuji IN Garou",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Yuji powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+             loadstring(game:HttpGet("https://raw.githubusercontent.com/xVicity/GLACIER/main/LATEST.lua"))() 
+
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
 
    Tabs.jjk:AddButton({
         Title = "Hakari",
@@ -588,7 +614,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JayXSama/ray-makk/mai
         end
     })
 
-Tabs.other:AddButton({
+Tabs.super:AddButton({
         Title = "Sans",
         Description = "Loads Sans IN Tatsumaki",
         Callback = function()
