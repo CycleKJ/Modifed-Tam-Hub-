@@ -304,8 +304,7 @@ do
                     {
                         Title = "Confirm",
                         Callback = function()
-              loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/HakariTSB/refs/heads/main/Main"))()
-
+loadstring(game:HttpGet('https://pastefy.app/IE0sOVyc/raw'))()
 
                         end
                     },
