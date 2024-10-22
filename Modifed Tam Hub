@@ -613,6 +613,59 @@ Tabs.super:AddButton({
         end
     })
 
+Tabs.super:AddButton({
+        Title = "Mastery Garou",
+        Description = "Loads Garou Powa",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/CycleKJ/Mastery-Garou/refs/heads/main/Garou"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+Tabs.super:AddButton({
+        Title = "Mastery Saitama",
+        Description = "Loads One Punch Powa",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load  powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/CycleKJ/Mastery-Saitama/refs/heads/main/Saitama"))()
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
+
+
+
 
 
 
