@@ -292,6 +292,34 @@ do
     })
 
 
+					
+  	        Tabs.jjk:AddButton({
+        Title = "Mahito",
+        Description = "Loads Mahito IN Saitama",
+        Callback = function()
+            Window:Dialog({
+                Title = "Are you sure?",
+                Content = "Load Mahito powers",
+                Buttons = {
+                    {
+                        Title = "Confirm",
+                        Callback = function()
+               loadstring(game:HttpGet("https://raw.githubusercontent.com/zyrask/Nexus-Base/main/atomic-blademaster%20to%20sukuna"))()
+
+
+                        end
+                    },
+                    {
+                        Title = "Cancel",
+                        Callback = function()
+                            print("Cancelled the dialog.")
+                        end
+                    }
+                }
+            })
+        end
+    })
+
 
    Tabs.jjk:AddButton({
         Title = "Hakari",
@@ -305,6 +333,7 @@ do
                         Title = "Confirm",
                         Callback = function()
 loadstring(game:HttpGet('https://pastefy.app/IE0sOVyc/raw'))()
+
 
                         end
                     },
